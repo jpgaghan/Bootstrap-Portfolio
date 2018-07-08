@@ -1,0 +1,225 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+#aboutmeimg {
+  height: 200px;
+  width: 200px;
+}
+
+#phonehead{
+  display: none;
+}
+
+body {
+  margin-bottom: 120px; /* Margin bottom by footer height */
+  background-image: url(assets/qbkls.png);
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 66px;
+  border-top: 6px solid; 
+  line-height: 60px;
+  background-color: #0c0c0c;
+}
+
+#ncsecu{
+  position: relative;
+}
+
+#ncsecu-label{
+  position: absolute;
+  bottom: 6px;
+  left:3%;
+  right: 3%;
+}
+
+#image{
+  float:right;
+}
+
+#content{
+  background-color: white;
+}
+
+#label {
+  top: 67px;
+  left: 0;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 100%;
+  color: #ffffff;
+  line-height: 36px;
+  text-align: center;
+  height: 32px;
+}
+
+
+@media screen and (max-width: 1199px) {
+  #label { 
+    top: 53px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #label { 
+    top: 31px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #label { 
+    top: 17px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #label { 
+    top: 97px;
+    height: 197%;
+    padding-top: 1%;
+    padding-bottom: 38px;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  #label { 
+    top: 95px;
+  }
+}
+
+@media screen and (max-width: 547px) {
+  #label { 
+    top: 93px;
+  }
+}
+
+@media screen and (max-width: 542px) {
+  #label { 
+    top: 92px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #label { 
+    top: 88px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  #label { 
+    top: 82px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #label { 
+    top: 74px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #phonehead{
+    display: block;
+    padding-right: 164px;
+    padding-left: 122px;
+  }
+
+  #normalhead{
+    display: none;
+  }
+
+  .navbar{
+    padding: 0%;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  #label { 
+    top: 68px;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  #label { 
+    top: 68px;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  #label { 
+    top: 63px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  #phonehead{
+    padding-left: 108px;
+  }
+
+@media screen and (max-width: 411px) {
+  #label {
+      top: 55px;
+  }
+}
+@media screen and (max-width: 389px) {
+  #label {
+      top: 51px;
+  }
+}
+
+@media screen and (max-width: 380px){
+  #phonehead{
+    padding-left: 83px;
+  }
+
+  #aboutmeimg {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 362px) {
+  #label {
+      top: 44px;
+  }
+}
+
+@media screen and (max-width: 380px){
+  #phonehead{
+    padding-left: 70px;
+  }
+
+@media screen and (max-width: 337px) {
+  #label {
+      top: 37px;
+  }
+  #aboutmeimg {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 310px){
+  #phonehead{
+    padding-left: 42px;
+  }
+
+@media screen and (max-width: 307px) {
+  #label {
+      top: 30px;
+  }
+}
+
+@media screen and (max-width: 298px) {
+  #label {
+    top: 40px;
+    height: 21px;
+    line-height: 35px;
+    padding-top: 0%;
+    padding-bottom: 33px;
+  }
+}
